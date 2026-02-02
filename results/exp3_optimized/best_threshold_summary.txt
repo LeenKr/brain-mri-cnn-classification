@@ -1,0 +1,9 @@
+Best threshold selection (priority: recall, then f1)
+Threshold: 0.5
+Accuracy: 0.9751
+Precision: 0.9486
+Recall: 1.0000
+F1: 0.9736
+Confusion Matrix:
+[[374  18]
+ [  0 332]]

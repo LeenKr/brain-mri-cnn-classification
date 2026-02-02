@@ -1,0 +1,53 @@
+# ==============================
+# DATA (DO NOT UPLOAD)
+# ==============================
+dataset/
+
+# ==============================
+# Python cache / junk
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Jupyter / notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# OS / Editor
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ==============================
+# Secrets
+# ==============================
+.env
+
+# ==============================
+# Model artifacts (recommended to ignore)
+# (keeps repo light; you can regenerate models)
+# ==============================
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+
+# ==============================
+# Big experiment outputs (optional)
+# Keep results/ if you want the plots on GitHub
+# ==============================
+results/**/tmp/
+results/**/cache/
